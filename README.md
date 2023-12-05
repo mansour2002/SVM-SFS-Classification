@@ -3,11 +3,8 @@ To perform one-on-one comparisons of quantitative features between different gro
 ![PID](https://github.com/mansour2002/SVM-SFS-Classification/blob/main/Figures/PID%20(%25).png)
 ![PID Ratios](https://github.com/mansour2002/SVM-SFS-Classification/blob/main/Figures/PID%20Ratios.png)
 
-
-
  
 Our classification model is built around a SVM classifier that utilizes radial basis function (RBF) kernels with hyperparameter values C = 1 and gamma = 'scale'. SVM classifiers were employed for binary and multiclass classification among different groups.Both binary and multiclass classifications underwent a 10-fold cross-validation process. In all classification tasks, we implemented sequential forward selection (SFS), a technique rooted in the greedy search algorithm, to identify the optimal subset of features that maximize classification accuracy. 
 ![AUC](https://github.com/mansour2002/SVM-SFS-Classification/blob/main/Figures/Fig4_2.png)
-
 ![AUC](https://github.com/mansour2002/SVM-SFS-Classification/blob/main/Figures/Fig4_4.png)
 
